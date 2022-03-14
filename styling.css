@@ -1,0 +1,79 @@
+#bgvideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+.navbar{
+    background: linear-gradient(rgb(55, 55, 102),rgb(48, 48, 80));
+    overflow: hidden;
+}
+
+.navbar-nav li{
+    color: white;
+}
+.navbar-nav a{
+    font-size: large;
+}
+#jumbo{
+    padding-top: 15%;
+    background:transparent;
+    text-align: center;
+    color: white;
+}
+#jumbo h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#jumbo h2{
+    
+    margin-bottom: 50px;
+}
+.about{
+    padding-top: 110px;
+    text-align: center;
+    color: white;
+}
+.about h2{
+    font-weight: bold;
+}
+.about img{
+    height: 120px;
+}
+.about .container{
+    max-width: 1000px;
+}
+#promise{
+    padding-top: 150px;
+}
+#slideshow{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-inner .carousel-item img{
+    width: 70%;
+    margin: 0 auto;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.footer{
+    background: linear-gradient(rgba(9, 9, 70, 0.13),rgb(36, 7, 7));
+    padding: 20px;
+    color: white;
+}
+@media (max-width:450px){
+    .navbar .navbar-brand{
+        font-size: small;
+    }
+    #jumbo h1{
+        font-size: 40px;
+    }
+    #jumbo h2{
+        font-size: 20px;
+    }
+
+}
